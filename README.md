@@ -1,9 +1,8 @@
 # Docker Multi-Stage Builds
 
-![Status](https://img.shields.io/badge/status-experimental-yellow.svg?style=flat)
-[![Docker Repository on Quay](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds/status "Docker Repository on Quay")](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds)
+[![Build Status](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds.svg?branch=master)](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds)
 
-Experimenting with Docker [Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) on [Quay](https://quay.io/).
+Experimenting with Docker [Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) on [Quay](https://quay.io/) and [Travis](https://travis-ci.org/).
 
 ## License
 

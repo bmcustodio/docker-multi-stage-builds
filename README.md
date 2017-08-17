@@ -1,8 +1,16 @@
 # Docker Multi-Stage Builds
 
-[![Build Status](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds.svg?branch=master)](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds)
-
 Experimenting with Docker [Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) on [Quay](https://quay.io/) and [Travis](https://travis-ci.org/).
+
+## Introduction
+
+[Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) are a recent feature of Docker. This project aims at testing support for this feature in both [Quay](https://quay.io/) and [Travis](https://travis-ci.org/) by attempting to build a "multi-stage" [`Dockerfile`](./Dockerfile) in both platforms.
+
+## Status
+
+| Quay | Travis |
+|------|--------|
+| [![Docker Repository on Quay](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds/status "Docker Repository on Quay")](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds) | [![Build Status](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds.svg?branch=master)](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds) |
 
 ## License
 

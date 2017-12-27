@@ -10,11 +10,11 @@ An experiment with Docker [Multi-Stage Builds](https://docs.docker.com/engine/us
 
 | Docker Hub | Quay | Travis |
 |------------|------|--------|
-| [![Docker Hub](https://img.shields.io/docker/build/brunomcustodio/docker-multi-stage-builds.svg)](https://hub.docker.com/r/brunomcustodio/docker-multi-stage-builds/) | [![Docker Repository on Quay](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds/status "Docker Repository on Quay")](https://quay.io/repository/brunomcustodio/docker-multi-stage-builds) | [![Build Status](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds.svg?branch=master)](https://travis-ci.org/brunomcustodio/docker-multi-stage-builds) |
+| [![Docker Hub](https://img.shields.io/docker/build/bmcstdio/docker-multi-stage-builds.svg)](https://hub.docker.com/r/bmcstdio/docker-multi-stage-builds/) | [![Docker Repository on Quay](https://quay.io/repository/bmcstdio/docker-multi-stage-builds/status "Docker Repository on Quay")](https://quay.io/repository/bmcstdio/docker-multi-stage-builds) | [![Build Status](https://travis-ci.org/bmcstdio/docker-multi-stage-builds.svg?branch=master)](https://travis-ci.org/bmcstdio/docker-multi-stage-builds) |
 
 ## License
 
-Copyright 2017 brunomcustodio
+Copyright 2017 bmcstdio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

@@ -10,4 +10,4 @@ before_install:
   - sudo apt-get -y install docker-ce
 
 script:
-  - docker build -t "brunomcustodio/docker-multi-stage-builds:latest" .
+  - docker build -t "bmcstdio/docker-multi-stage-builds:latest" .

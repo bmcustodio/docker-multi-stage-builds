@@ -1,10 +1,12 @@
 # Docker Multi-Stage Builds
 
-An experiment with Docker [Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) on [Docker Hub](https://hub.docker.com/), [Quay](https://quay.io/) and [Travis CI](https://travis-ci.org/).
+An experiment with Docker [Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) on [Docker Hub](https://hub.docker.com/), [Quay.io](https://quay.io/) and [Travis CI](https://travis-ci.org/).
 
 ## Introduction
 
-[Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) are a recent feature of Docker. This project aims at testing support for this feature in [Docker Hub](https://hub.docker.com/), [Quay](https://quay.io/) and [Travis](https://travis-ci.org/) by attempting to build a "multi-stage" [`Dockerfile`](./Dockerfile) in the three platforms.
+[Quay.io](https://quay.io) recently introduced support for multi-stage builds. From now on this project serves only as an example.
+
+~~[Multi-Stage Builds](https://docs.docker.com/engine/userguide/eng-image/multistage-build/) are a recent feature of Docker. This project aims at testing support for this feature in [Docker Hub](https://hub.docker.com/), [Quay.io](https://quay.io/) and [Travis](https://travis-ci.org/) by attempting to build a "multi-stage" [`Dockerfile`](./Dockerfile) in the three platforms.~~
 
 ## Status
 

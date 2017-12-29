@@ -1,7 +1,9 @@
-FROM golang:1.9.2-alpine3.6 AS builder
-COPY main.go /src/
-RUN go build -o /app /src/main.go
+FROM quay.io/bmcstdio/golang-alpine-builder:1.0.0 AS builder
+WORKDIR $GOPATH/src/github.com/bmcstdio/docker-multi-stage-builds
+COPY . .
+RUN dep ensure
+RUN go build -o /app ./main.go
 
-FROM alpine:3.6
+FROM alpine:3.7
 COPY --from=builder /app /app
 CMD ["/app"]

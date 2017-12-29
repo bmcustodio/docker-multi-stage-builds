@@ -1,0 +1,7 @@
+.dockerignore
+.git
+.travis.yml
+Dockerfile
+LICENSE
+README.md
+vendor/
